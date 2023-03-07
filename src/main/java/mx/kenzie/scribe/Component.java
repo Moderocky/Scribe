@@ -129,6 +129,11 @@ public class Component implements Contents {
             return this;
         }
 
+        public Builder hoverEvent(Component show) {
+            Component.this.hoverEvent = new HoverEvent(TextEvent.Action.SHOW_TEXT, show);
+            return this;
+        }
+
         public Builder hoverEvent(HoverEvent hoverEvent) {
             Component.this.hoverEvent = hoverEvent;
             return this;
@@ -157,5 +162,7 @@ public class Component implements Contents {
         public String toString() {
             return Component.this.toString();
         }
+
     }
+
 }
