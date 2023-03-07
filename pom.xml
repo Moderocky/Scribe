@@ -8,7 +8,7 @@
     <artifactId>scribe</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Scribe</name>
-    <description>A minecraft text components library.</description>
+    <description>A Minecraft text components library.</description>
     <url>https://github.com/Moderocky/Scribe</url>
 
     <properties>
