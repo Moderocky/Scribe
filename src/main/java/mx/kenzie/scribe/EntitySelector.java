@@ -1,7 +1,7 @@
 package mx.kenzie.scribe;
 
 import mx.kenzie.argo.Json;
-import mx.kenzie.argo.meta.Optional;
+import mx.kenzie.grammar.Optional;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
